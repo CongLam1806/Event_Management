@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="DBContext\" />
+    <Folder Include="Repository\Common\" />
+    <Folder Include="Repository\SQL\" />
+    <Folder Include="UnitOfWork\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Event_Management.Application\Event_Management.Application.csproj" />
+    <ProjectReference Include="..\Event_Management.Domain\Event_Management.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
