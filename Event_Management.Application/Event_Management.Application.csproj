@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Event_Management.Domain\Event_Management.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Message\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
